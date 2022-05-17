@@ -1,4 +1,4 @@
-# Git / Git-Hub :space_invader: By André Souza
+# Git / Git-Hub By André Souza:space_invader:
 
 1. Introdução ao Git/Git-Hub
 2. Comandos úteis
@@ -24,17 +24,17 @@
 
 
 
-+ `git init` é utilizado para criar um repositório de uma simples pasta. 
++ `git init` É utilizado para criar um repositório de uma simples pasta. 
 
-+ `git add` É o Comando Utilizado para adicionar as pastas do repositório para um estágio de Salvo
++ `git add` É o Comando Utilizado para adicionar as pastas do repositório para um estágio de Salvo.
 
-+ `git commit` é utilizado para confirmar as alterações feitas nos arquivos e enviar para o repositório 
++ `git commit` é utilizado para confirmar as alterações feitas nos arquivos e enviar para o repositório .
 
-+ `git remote` É utilizado para adicionar uma branch remota apontando para o repositório
++ `git remote` É utilizado para adicionar uma branch remota apontando para o repositório.
 
-+ `git pull` Utilizado para buscar e baixar conteúdo dos repositórios remotos criando uma atualização imediata no repositório local
++ `git pull` Utilizado para buscar e baixar conteúdo dos repositórios remotos criando uma atualização imediata no repositório local.
 
-+ `git push` É utilizado para enviar os arquivos do repositório local que já estão prontos para serem enviados para o Repositório remoto
++ `git push` É utilizado para enviar os arquivos do repositório local que já estão prontos para serem enviados para o Repositório remoto.
 
   ------
 
