@@ -1,4 +1,4 @@
-# Git / Git-Hub By André Souza:space_invader:
+# Git / Git-Hub By :cowboy_hat_face:André Souza:space_invader:
 
 1. Introdução ao Git/Git-Hub
 2. Comandos úteis
