@@ -24,9 +24,9 @@
 
 
 
-+ `Git Init` é utilizado para criar um repositório de uma simples pasta. 
++ `Git init` é utilizado para criar um repositório de uma simples pasta. 
 
-+ `Git Add` É o Comando Utilizado para adicionar as pastas do repositório para um estágio de Salvo
++ `Git add` É o Comando Utilizado para adicionar as pastas do repositório para um estágio de Salvo
 
 + `Git commit` é utilizado para confirmar as alterações feitas nos arquivos e enviar para o repositório 
 
