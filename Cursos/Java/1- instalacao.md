@@ -22,3 +22,34 @@
 2. Instale no padrão NNF (Next Next Finish)
 3. Abra o Eclipse
 
+<hr>
+
+
+
+### Hello World em Java
+
+1. Crie um arquivo com o bloco de notas e passe o seguinte código
+
+   `public class PrimeiroPrograma {`
+
+   ​	`public static void main(String args[]){`
+
+   ​		`System.out.println("Hello World!");`
+
+   ​	`}`
+
+   `}`
+
+2. Salve o  arquivo como o seguinte nome e extensão `PrimeiroPrograma.java`
+
+3. Acesse via terminal a pasta em que o arquivo se encontra
+
+4. utilize o comando `javac PrimeiroPrograma.java` se não aparecer nada no terminal ótimo!
+
+5. para rodar o *bytecode* agora basta digitar `java PrimeiroPrograma`
+
+6. Comemore :smile: 
+
+<hr>
+
+*YEAH PROGRAMMER* - Robert C. Martin
