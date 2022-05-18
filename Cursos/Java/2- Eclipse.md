@@ -11,19 +11,26 @@
 
 #### Atalhos
 
-+ `Ctrl + n`  Criação de novos arquivos, classes, etc
-+ `Ctrl + espaço`  Atalho para auto completar 
-+ `Ctrl + f11` Rodar o programa como java Application
-
-<hr>
-
-
-
-#### Git e GitHub
++ `Ctrl + D` Apaga Linha em que o cursor encontra-se
++ `Ctrl + M`  Alteração entre as perspectiva Normal e o Modo Perspectiva Única
++ `Ctrl + N`  Criação de novos arquivos, classes, etc 
++ `Ctrl + W` Fecha Aba
++ `Ctrl + Shift + W` Fecha Todas as Aba
++ `Ctrl + '+'` Aumenta o tamanho da Fonte
++ `Ctrl + '-'`  Diminue o Tamanho da Fonte
++ `Ctrl + 3` Lupa utilizada para utilizar funções predefinidas no Eclipse
++ `Ctrl + Espaço`  Atalho para auto completar 
++ `Ctrl + F11` Rodar o programa como java Application
++ `Ctrl + Shift + F` Reorganiza o código
++ `Ctrl + Shift + O` Resolve Dependencias
++ `Ctrl + Alt + Seta P/Baixo` Duplica a linha selecionada
++ `Alt + Seta P/ Cima` Move o bloco de código que foi selecionado pelo cursor
 
 <hr>
 
 #### Debug
+
+Debug é a ação de examinar o código por erros, a própria IDE fornece uma funcionalidade para você poder pausar a execução de um código e ir linha após linha verificando se há algum tipo de problema, o próprio eclipse tem uma perspectiva dedicada para trabalhar com o Debug.
 
 <hr>
 
