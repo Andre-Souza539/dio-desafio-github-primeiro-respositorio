@@ -24,8 +24,6 @@
 
 <hr>
 
-
-
 ### Hello World em Java
 
 1. Crie um arquivo com o bloco de notas e passe o seguinte código
