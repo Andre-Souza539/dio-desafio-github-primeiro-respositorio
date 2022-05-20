@@ -7,8 +7,9 @@
 <hr>
 
 
-
 #### 1. Conceituação e Criação
+
+
 
 **O que é uma Variável?**
 
@@ -101,8 +102,9 @@ R- Variável é um espaço na memória do computador, onde se pode guardar valor
 *"Usar boas práticas é para mostrar  que você se preocupa em criar um código fácil de manter e fácil de ler"*
 
 <hr>
-
 #### 2. Tipos de dado
+
+
 
 **O que é um tipo de dado?**
 
@@ -165,14 +167,95 @@ Usar de forma adequada cada tipo de dado para cada informação
 
 
 <hr>
-
 #### 3. Operadores Aritméticos
 
-<hr>
 
+
+**O Que são Operadores?:**
+
+R- São símbolos especiais que são capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida retornar um resultado.
+
+
+
+**Tipos:**
+
++ `Pós-fixado: exp ++ ou exp--`
++ `prefixado: ++exp ou --exp`
++ `Aritmético: +, -, *, / e %`
++ `Atribuição: =, +=, -=, *=, /= e %=`
+
+
+
+**Exemplos:**
+
++ `int i = ++k; => i = k + 1` 
++ `int j  = k--; => j = k; k = k - 1` 
++ `float f = 1.5f + 4.5f;`
++ `long l = 10398L * 5L;`
++ `double d = 45d / 4d;`
++ `int k = 15% 4;`
++ `double d = f;` 
++ `i += 5; => i = i +5;`
++ `j -= 3; => j = j - 3;`
++ `d /= 2.7d; => d = d / 2.7d;`
++ `l *=3; => l = l * 3;`
++ k %=2; => k = k % 2;
+
+
+
+| Operador       | Precedência           |
+| -------------- | --------------------- |
+| Pós-fixado     | exp++, exp--          |
+| Prefixado      | ++exp, --exp          |
+| Multiplicativo | *, /, %               |
+| Aditivo        | +, -                  |
+| Atribuição     | =, +=, -=, *=, /=, %= |
+
+<hr>
 #### 4. Conversões(Casting)
 
-<hr>
 
+
+**O que é Casting?**
+
+R- É a transformação de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa
+
+
+
+**Tipos**
+
++ Upcast(implícito)
++ Downcast(explícito)
+
+
+
+**Utilização:**
+
+U - I: Upcast Implícito 
+
+D - E: Downcast Explícito
+
+| xx         | byte  | short | char  |  int  | long  | float | double |
+| :--------- | :---: | :---: | :---: | :---: | :---: | :---: | :----: |
+| **byte**   |  xx   | U - I | char  | U - I | U - I | U - I | U - I  |
+| **short**  | D - E |  xx   | char  | U - I | U - I | U - I | U - I  |
+| **char**   | D - E | D - E |  xx   | U - I | U - I | U - I | U - I  |
+| **int**    | D - E | D - E | D - E |  xx   | U - I | U - I | U - I  |
+| **long**   | D - E | D - E | D - E | D - E |  xx   | U - I | U - I  |
+| **float**  | D - E | D - E | D - E | D - E | D - E |  xx   | U - I  |
+| **double** | D - E | D - E | D - E | D - E | D - E | D - E |   xx   |
+
+
+
+**Exemplos:**
+
++ `long l; int i = 10; i = j;`
++ `int i; long l = 100; i = (int) l;`
++ `double d; float f = 10.5f; d = f;`
++ `float f; double d = 10.5d; f = float (float) d`
+
++ `int i; float f = 10.5f; **i = (int) f**;`
+
+<hr>
 
 
