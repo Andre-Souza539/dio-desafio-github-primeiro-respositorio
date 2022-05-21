@@ -73,7 +73,231 @@ Simbologia
 
 Criar um simples projeto para realizar as comparações do estudo, além de utilizar os demais tipos de dados não apresentados.
 
+[Link do Exercício](https://github.com/aljsjunca/dio-desafio-github-primeiro-respositorio/blob/main/Cursos/Java/Estudo-LogicaCondicional/src/br/com/dio/java/logica/LogicaRelacional.java)
+
 <hr>
+#### 2. Operadores Lógicos
+
+**O que são Operadores Lógicos ?** 
+R- São símbolos especiais que são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e , em seguida, retornar um resultado;
+
+
+
+**Tipos**
+
++ Conjunção
++ Disjunção
++ Disjunção exclusiva
++ Negação
+
+
+
+**Como utilizar:**
+
+**Conjunção**: Operação lógica que só é verdadeira quando ambos os operandos ou expressões envolvidas são verdade 
+
+| O-E  | O-E  |  R   |
+| :--: | :--: | :--: |
+|  V   |  V   |  V   |
+|  V   |  F   |  F   |
+|  F   |  V   |  F   |
+|  F   |  F   |  F   |
+
+O - Operando 
+
+E - Expressão 
+
+R - Resultado
+
+
+
+**Simbologia**
+
++ &&
+
+**Terminologia**:
+
+and(e)
+
+
+
+**Disjunção:** Operação que só é falsa quando ambos os operandos ou expressões envolvidas são falsos
+
+
+
+| O-E  | O-E  |  R   |
+| :--: | :--: | :--: |
+|  V   |  V   |  V   |
+|  V   |  F   |  V   |
+|  F   |  V   |  V   |
+|  F   |  F   |  F   |
+
+
+
+O - Operando 
+
+E - Expressão 
+
+R - Resultado
+
+
+
+**Simbologia**
+
++ ||
+
+**Terminologia**:
+
+or(ou)
+
+
+
+**Disjunção exclusiva:** Operação que só é verdadeira quando ambos os operadores ou expressões são opostos.
+
+
+
+| O-E  | O-E  |  R   |
+| :--: | :--: | :--: |
+|  V   |  V   |  F   |
+|  V   |  F   |  V   |
+|  F   |  V   |  V   |
+|  F   |  F   |  F   |
+
+
+
+O - Operando 
+
+E - Expressão 
+
+R - Resultado
+
+
+
+**Simbologia**
+
++ ^
+
+**Terminologia**:
+
+xor
+
+
+
+**Negação:** Operação que inverte o valor lógico de um operando ou expressão.
+
+
+
+| O-E  | O-E  |  R   |
+| :--: | :--: | :--: |
+|  V   |  V   |  F   |
+|  V   |  F   |  V   |
+|  F   |  V   |  V   |
+|  F   |  F   |  F   |
+
+
+
+O - Operando 
+
+E - Expressão 
+
+R - Resultado
+
+
+
+**Simbologia**
+
++ !
+
+**Terminologia**:
+
++ inversão
+
+
+
+**Quando Utilizar?** 
+
+
+
+**Curiosidades**
+
++ Operadores bitwise & e | // Não são operadores Lógicos
++ Operadores shift: ~, >>, >>>, << // Inverter os Bits dos números
+
+ 
+
+**Exemplos:**
+
+
+
+`boolean b1 = true; boolean b2 = false;`
+
+`boolean b3 = true; boolean b4 = false;`
+
+
+
+`b1 && b2;`
+
+`b1 && b3;`
+
+
+
+`b2 || b3;`
+
+`b2 || b4;`
+
+
+
+`b1 ^ b3;`
+
+`b4 ^ b1;`
+
+
+
+`!b1;`
+
+`!b2;`
+
+
+
+`(i1 > i2) || (f2 < f1)`
+
+`((i1 + i2) < (f2 - f1)) && true`
+
+
+
+**Boas práticas**
+
++ Crie variaveis auxiliares para guardar resultados intermediários 
+
+`(salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes)`
+
+​	`pode ser`
+
+`(salarioBaixo) && (muitosDependentes)`
+
+
+
+`boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);`
+
+
+
+
+
+<hr>
+
+#### 3. Controle de Fluxo
+
+<hr>
+
+#### 4. Blocos
+
+<hr>
+
+
+
+
+
+
 
 
 
