@@ -3,11 +3,11 @@ package br.com.dio.metodo.sobrecarga;
 public class Quadrilatero {
 	
 	public static void area(double lado) {
-		System.out.println("Área do Quadrado: " + lado * lado + " U²");
+		System.out.println("Área do Quadrado: " + lado * lado + "U²");
 	}
 	
 	public static void area(double lado1, double lado2) {
-		System.out.println("Área do Retângulo: " + lado1 * lado2 + " U²");
+		System.out.println("Área do Retângulo: " + lado1 * lado2 + "U²");
 	}
 	
 	public static void area(double baseMaior, double baseMenor, double altura) {

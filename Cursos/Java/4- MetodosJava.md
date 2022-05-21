@@ -166,7 +166,9 @@ Passa-se uma mensagem através de uma classe ou objeto.
 [Resolução do Exercício](https://github.com/aljsjunca/dio-desafio-github-primeiro-respositorio/tree/main/Cursos/Java/Estudos-Metodos/src/br/com/dio/metodos)
 
 <hr>
+
 #### 2. Sobrecarga
+
 
 
 
@@ -248,8 +250,81 @@ Ass = nome + parâmetros
 
 
 <hr>
-
 #### 3. Retornos
+
+
+
+**Como funciona? **
+
+O método executa o seu retorno quando:
+
++ Completa todas suas instruções internas
++ Chega a uma declaração explicita de retorno
++ Lança uma exceção
+
+
+
+**Considerações:**
+
++ O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
++ O tipo de dado do return deve ser compatível com o dométodo;
++ Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução
+
+
+
+Exemplos:
+
+`public String getMensagem(){`
+
+​	`return "Ola!";`
+
+`}`
+
+
+
+`public double getJuros(){`
+
+​	`return 2.36;`
+
+`}`
+
+
+
+`public int getParcelas(){`
+
+​	`return 1.36f;` // Erro pois o método foi declarado com o retorno inteiro.
+
+}`
+
+
+
+`public void setIdade(){`
+
+​	`return 10;` // erro pois o método foi declarado como void (ou seja sem retorno)
+
+`}`
+
+
+
+`public void executar() {`
+
+`...`
+
+`return;`
+
+`...`
+
+`}`
+
+
+
+**Exercício:**
+
+Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça os métodos retornarem os valores;
+
+
+
+
 
 <hr>
 

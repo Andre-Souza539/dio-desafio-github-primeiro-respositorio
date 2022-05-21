@@ -7,12 +7,19 @@ public class Main {
 		//Quadrilatero
 		
 		System.out.println("Exercício do Quadrilátero");
-		Quadrilatero.area(3); // Área do Quadrado;
-		Quadrilatero.area(5d,5d); // Área do Retângulo;
-		Quadrilatero.area(7,8,9); // Área do Trapézio;
-		Quadrilatero.area(5f,5f); // Área do Losango;
 		
+		double quadrado = QuadrilateroRetorno.area(3); // Área do Quadrado;
+		System.out.println("Área do quadrado: " + quadrado + " u²");
 		
+		double retangulo = QuadrilateroRetorno.area(5d,5d); // Área do Retângulo;
+		System.out.println("Área do Retangulo: " + retangulo + " u²");
+		
+		double trapezio = QuadrilateroRetorno.area(7,8,9); // Área do Trapézio;
+		System.out.println("Área do Trapézio: " + trapezio + " u²");
+		
+		float losango = QuadrilateroRetorno.area(5f,5f); // Área do Losango;
+		System.out.println("Área do Losango: " + losango + " u²");
+			
 		
 	}
 
