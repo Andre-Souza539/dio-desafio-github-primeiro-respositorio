@@ -284,15 +284,225 @@ R - Resultado
 
 
 <hr>
-
 #### 3. Controle de Fluxo
 
-<hr>
+**O que é Controle de Fluxo?** 
 
+R- São estruturas que tem a capacidade de direcionar o fluxo de execução do código
+
+
+
+**Tipos**:
+
+- Decisão: if, if-else, if-else-if, switch  e operador ternário
+- Repetição: for, while, do while.
+- Interrupção: break, continue e return
+
+
+
+
+
+**Como usar cada estrutura?**
+
+
+
+**Tipo**: 
+
++ Decisão: estrutura que avalia uma condição booleana ou variável para direcionar o fluxo fluxo de execução
++ Opções: if(se), switch(escolha) e operador ternário
+
+
+
+**IF:**
+
++ Decisão: If, If-else, if-else-if, if-else-if-else
+
+`If (condição){`
+
+`} else if (condição) {`
+
+`} else` 
+
+
+
+**Exemplo**
+
+`if (idade > 18){`
+
+`}`
+
+
+
+`if(aprovado){`
+
+`} else {`
+
+`}`
+
+
+
+`if(casado && temFilho){`
+
+`} else if (casado && semFilhos) {`
+
+`} else {`
+
+`}`
+
+
+
+**Operador Ternário**
+
+`condição ? exp1 : exp2;`
+
+
+
+**Exemplo**
+
+`condição ? true : false;`
+
+`ligado ? desligar : ligar;`
+
+`condição ? true : null;`
+
+`emMovimento ?  freia : null;`
+
+
+
+
+
+**Switch**
+
+Decisão: Escolha
+
+
+
+`Caso 1 faça algo`
+
+`Caso 2 faça algo`
+
+`fim`
+
+
+
+`Switch (variável){`
+
+​	`case1:`
+
+​	`break;`
+
+​	`case...:`
+
+​	`break;`
+
+​	`default:`
+
+​	`break;`
+
+`}`
+
+
+
+**Boas Práticas**
+
++ Switch é para valores exatos e if para expressões booleanas
++ Evitar usar o default do switch para "cases genéricos"
++ Evitar o efeito "flecha" dos if's
++ Evitar muitos ifs aninhados
++ Usar a Boa prática da aula 2 para diminuir o tamanho do if
+
+
+
+**Exercício**
+
+
+
+Crie um simples projeto em java criando variáveis e expressões nas estruturas de if e switch;
+
+
+
+com o if, exiba o nome do mês do ano de acordo com seu número.
+
+evite o efeito "flecha". faça também outro if que verifique se o mês é julho, dezembro ou janeiro para assim exibir o texto "Férias".
+
+
+
+Com o Switch  use String para a partir do dia da semana, exibir seu número. ainda no switch, faça outro exemplo onde, uma variável inteira for entre 1 e 3 exibir o texto "certo" 4 exibir "errado", se for 5 "talvez". para demais valores exibir "indefinido".
+
+
+
+<hr>
 #### 4. Blocos
 
-<hr>
 
+
+**O que são Blocos?**
+
+R- é um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação
+
+
+
+**Tipos de blocos**
+
++ Locais: Dentro de métodos
++ Estáticos: Dentro de classes
++ Instância Dentro de classes
+
+
+
+**Como usar Blocos?**
+
+
+
+**Criação** 
+
++ Locais 
+
+`{`
+
+`}`
+
+
+
+**Exemplos**
+
+
+
+`if(autorizado){`
+
+​	`CarregarPerfil`
+
+​	`DirecionarPaginaPrincipal`
+
+`}`
+
+
+
+`if (menorIdade)`
+
+​	`DirecionarPaginaProibido`
+
+
+
+`if (autorizado){`
+
+`...`
+
+`}else {`
+
+`...`
+
+`}`
+
+
+
+**Exercício**
+
+
+
+
+
+<hr>
 
 
 
