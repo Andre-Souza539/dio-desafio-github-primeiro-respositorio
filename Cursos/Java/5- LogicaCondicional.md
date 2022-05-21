@@ -76,7 +76,12 @@ Criar um simples projeto para realizar as comparações do estudo, além de util
 [Link do Exercício](https://github.com/aljsjunca/dio-desafio-github-primeiro-respositorio/blob/main/Cursos/Java/Estudo-LogicaCondicional/src/br/com/dio/java/logica/LogicaRelacional.java)
 
 <hr>
-#### 2. Operadores Lógicos
+
+
+
+### 2. Operadores Lógicos
+
+
 
 **O que são Operadores Lógicos ?** 
 R- São símbolos especiais que são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e , em seguida, retornar um resultado;
@@ -284,7 +289,12 @@ R - Resultado
 
 
 <hr>
-#### 3. Controle de Fluxo
+
+
+
+### 3. Controle de Fluxo
+
+
 
 **O que é Controle de Fluxo?** 
 
@@ -433,7 +443,8 @@ Com o Switch  use String para a partir do dia da semana, exibir seu número. ain
 
 <hr>
 
-#### 4. Blocos
+
+### 4. Blocos
 
 
 
