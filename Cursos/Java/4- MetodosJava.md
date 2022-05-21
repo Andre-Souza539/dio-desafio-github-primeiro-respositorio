@@ -166,15 +166,90 @@ Passa-se uma mensagem através de uma classe ou objeto.
 
 
 <hr>
-
 #### 2. Sobrecarga
+
+
+
+**O que é sobrecarca?**
+
+R- É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome.
+
+
+
+**Como criar uma sobrecarga?**
+
+Alterar a assinatura do método: 
+
+Ass = nome + parâmetros
+
+
+
+`converter ParaInteiro(float f);`
+
+`converterParaInteiro(double d);`
+
+`converterParaInteiro(String s);`
+
+`converterParaInteiro(float f, RoundType rd);```
+
+`converterParaInteiro(double d, RoundType rd);`
+
+`converterParaInteiro(String s, RoundType rd);`
+
+**converterParaInteiro(RoundType rd, String s);**
+
+**converterParaInteiro();**
+
+
+
+> Tenha em mente = "Mudou a lista de parâmetros mas continuou com o mesmo nome, foi criada uma sobrecarga para o método"
+
+
+
+[Exemplos de Sobrecarga](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html)
+
+| `void` | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println())**()Terminates the current line by writing the line separator string. |
+| ------ | ------------------------------------------------------------ |
+| `void` | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(boolean))**(boolean x)Prints a boolean and then terminate the line. |
+| void   | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(char))**(char x)Prints a character and then terminate the line. |
+| `void` | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(char[]))**(char[] x)Prints an array of characters and then terminate the line. |
+| `void` | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(double))**(double x)Prints a double and then terminate the line. |
+| void   | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(float))**(float x)Prints a float and then terminate the line. |
+| `void` | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(int))**(int x)Prints an integer and then terminate the line. |
+| void   | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(long))**(long x)Prints a long and then terminate the line. |
+| `void` | **[println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(java.lang.Object))**(Object x)Prints an Object and then terminate the line. |
+| `void` | **[ println](https://docs.oracle.com/javase/7/docs/api/java/io/PrintStream.html#println(java.lang.String))**(String x) Prints a String and then terminate the line. |
+
+
+
+[Sobrecarga na String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(boolean))**(boolean b)Returns the string representation of the boolean argument. |
+| --------------- | ------------------------------------------------------------ |
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(char))**(char c)Returns the string representation of the char argument. |
+| static String   | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(char[]))**(char[] data)Returns the string representation of the char array argument. |
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(char[], int, int))**(char[] data, int offset, int count)Returns the string representation of a specific subarray of the char array argument. |
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(double))**(double d)Returns the string representation of the double argument. |
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(float))**(float f)Returns the string representation of the float argument. |
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(int))**(int i)Returns the string representation of the int argument. |
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(long))**(long l)Returns the string representation of the long argument. |
+| `static String` | **[valueOf](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#valueOf(java.lang.Object))**(Object obj)Returns the string representation of the Object argument. |
+
+
+
+**Curiosidade: Sobrecarga x Sobrescrita**
+
+**Exercício:** 
+
++ Criar uma aplicação que calcula a área dos 3 quadriláteros notáveis : quadrado, retângulo, losango e trapézio.
+
+
 
 <hr>
 
 #### 3. Retornos
 
 <hr>
-
 
 
 
