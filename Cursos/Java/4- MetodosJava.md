@@ -155,8 +155,6 @@ Passa-se uma mensagem através de uma classe ou objeto.
 + A partir da hora do dia, informe a mensagem adequada: Bom dia, Boa tarde, Boa noite
 + Calcule o valor final de um empréstimo, á partir do valor solicitado. Taxas e parcelas influenciam. Defina arbitrariamente as faixas que influenciam nos valores
 
-
-
 **Observações**
 
 + Tente ao máximo criar métodos que trabalhem sozinhos ou em conjunto
@@ -164,6 +162,8 @@ Passa-se uma mensagem através de uma classe ou objeto.
 + pode passar como parâmetro, a chamada de um outro método
 
 
+
+[Resolução do Exercício](https://github.com/aljsjunca/dio-desafio-github-primeiro-respositorio/tree/main/Cursos/Java/Estudos-Metodos/src/br/com/dio/metodos)
 
 <hr>
 #### 2. Sobrecarga
@@ -242,6 +242,8 @@ Ass = nome + parâmetros
 **Exercício:** 
 
 + Criar uma aplicação que calcula a área dos 3 quadriláteros notáveis : quadrado, retângulo, losango e trapézio.
+
+[Resolução do Exercício](https://github.com/aljsjunca/dio-desafio-github-primeiro-respositorio/tree/main/Cursos/Java/Estudo-Metodo-2/src/br/com/dio/metodo/sobrecarga)
 
 
 
