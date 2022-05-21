@@ -250,7 +250,9 @@ Ass = nome + parâmetros
 
 
 <hr>
+
 #### 3. Retornos
+
 
 
 
@@ -321,6 +323,10 @@ Exemplos:
 **Exercício:**
 
 Recrie a aplicação que calcula a área dos 3 quadriláteros notáveis. Agora faça os métodos retornarem os valores;
+
+
+
+[Resolução do Exercício 3](https://github.com/aljsjunca/dio-desafio-github-primeiro-respositorio/blob/main/Cursos/Java/Estudo-Metodo-2/src/br/com/dio/metodo/sobrecarga/QuadrilateroRetorno.java)
 
 
 
